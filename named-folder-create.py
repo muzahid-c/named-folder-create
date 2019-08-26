@@ -17,7 +17,7 @@ from tkinter.messagebox import *
 
 root = tkinter.Tk()
 root.withdraw() # To hide Tkinter window
-root.iconbitmap(default=r'E:\Code\Named-Folder-Create\favicon.ico') # Tkinter custom icon, default will change icon in simpledialog also
+root.iconbitmap(default=r'location_of_the_script\favicon.ico') # Tkinter custom icon, default will change icon in simpledialog also
 CurrDir = os.getcwd() # To get the base dir
 
 SelectDir = filedialog.askdirectory(parent=root, initialdir=CurrDir, title='Please select a directory') # Prompt to select the directory
